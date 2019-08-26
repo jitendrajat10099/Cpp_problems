@@ -2,7 +2,8 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-bool checkSetBit(int n, int x) {
+bool checkSetBit(int n, int x) 
+{
     int tem = n & (1<<x);
     return tem!=0;
 }
